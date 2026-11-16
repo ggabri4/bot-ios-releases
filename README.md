@@ -1,11 +1,19 @@
-# Bot — source SideStore
+# Bot — téléchargement
 
-Ce dépôt contient uniquement la distribution publique de Bot : catalogue SideStore, icône et IPA compilées. Le code source de l'application reste privé.
+Client iOS natif de Fleet. Ce dépôt ne contient que la distribution (IPA, icône, catalogue) ;
+le code source est privé.
 
-URL de la source (disponible après la première publication réussie) :
+## Ajouter la source à SideStore
 
-https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/source.json
+Dans SideStore : Sources → « + », puis coller :
 
-Les mises à jour sont publiées automatiquement après les tests et la compilation Linux du dépôt source privé. Un build en échec ne remplace pas la dernière version valide.
+    https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/source.json
 
-L'installation et la re-signature passent par SideStore. L'accès au backend personnel Fleet nécessite Tailscale ; aucune donnée personnelle du backend n'est hébergée ici.
+Les nouvelles versions apparaissent après chaque build réussi de `main` (le cache de
+raw.githubusercontent.com peut retarder l'affichage de quelques minutes).
+
+## Versions
+
+| Version | Build | Date | Taille | IPA |
+|---|---|---|---|---|
+| 1.0.3 | 3 | 2026-11-16T22:23:36Z | 633904 octets | [Bot.ipa](https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/releases/1.0.3/Bot.ipa) ([SHA-256](releases/1.0.3/Bot.ipa.sha256)) |

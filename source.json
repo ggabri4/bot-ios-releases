@@ -1,0 +1,40 @@
+{
+  "name": "Bot",
+  "subtitle": "Client iOS natif de Fleet",
+  "description": "Source de Gab pour Bot, le client iOS natif de Fleet. Chaque build réussi de la branche main y publie une nouvelle version.",
+  "iconURL": "https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/icon.png",
+  "website": "https://github.com/ggabri4/bot-ios-releases",
+  "featuredApps": [
+    "fr.gab.fleet.bot"
+  ],
+  "apps": [
+    {
+      "name": "Bot",
+      "bundleIdentifier": "fr.gab.fleet.bot",
+      "developerName": "Gab",
+      "subtitle": "Quotas, Mac, échanges entre bots, Kanban et fichiers",
+      "localizedDescription": "Bot est le client iOS natif de Fleet. Il affiche les quotas des bots, l’état du Mac (processeur, batterie), les échanges entre Ferb, Perry et Phineas en direct, le Kanban Hermes (lecture et création de tâches) et les fichiers autorisés du Mac, avec aperçu et partage. Il se connecte uniquement au serveur Fleet du tailnet privé, en HTTPS vérifié.",
+      "iconURL": "https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/icon.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "buildVersion": "3",
+          "date": "2026-11-16T22:23:36Z",
+          "localizedDescription": "Build automatique 3 de la branche main.",
+          "downloadURL": "https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/releases/1.0.3/Bot.ipa",
+          "size": 633904,
+          "minOSVersion": "16.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Bot se connecte au serveur Fleet de ton Mac si tu saisis une adresse du réseau local.",
+          "NSPhotoLibraryAddUsageDescription": "Pour enregistrer dans Photos une image ouverte depuis les fichiers du Mac."
+        }
+      }
+    }
+  ],
+  "news": []
+}
