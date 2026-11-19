@@ -18,6 +18,15 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.0.4",
+          "buildVersion": "4",
+          "date": "2026-11-19T09:13:13Z",
+          "localizedDescription": "Build automatique 4 de la branche main.",
+          "downloadURL": "https://raw.githubusercontent.com/ggabri4/bot-ios-releases/main/releases/1.0.4/Bot.ipa",
+          "size": 652849,
+          "minOSVersion": "16.2"
+        },
+        {
           "version": "1.0.3",
           "buildVersion": "3",
           "date": "2026-11-16T22:23:36Z",
